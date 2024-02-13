@@ -9,11 +9,17 @@
 
 /* navbar */
 .navbar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
+    z-index: 999999;
+    border-bottom: 1px solid #dfdfdf;
 }
 
 .navbar-row {
@@ -125,6 +131,7 @@
 /* home section */
 
 .home-container {
+    margin-top: 60px;
     display: flex;
     flex-direction: row;
     gap: 30px;
