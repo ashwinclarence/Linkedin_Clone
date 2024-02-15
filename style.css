@@ -533,11 +533,11 @@ text-align: center;
 }
 .middle-home-loader{
     
-    border: 10px solid rgb(126, 126, 126);
-    border-top: 10px solid rgb(198, 198, 198);
+    border: 5px solid rgb(126, 126, 126);
+    border-top: 5px solid rgb(198, 198, 198);
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     text-align: center;
     animation:spin .7s linear infinite ;
 }
