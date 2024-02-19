@@ -632,7 +632,7 @@
     display: flex;
     flex-direction: column;
     width: 25%;
-    gap: 20px;
+    gap: 10px;
 
 }
 
@@ -690,7 +690,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 10px 20px;
+    padding: 0px 20px;
     transition: .3s ease-in-out;
 }
 
@@ -718,8 +718,9 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 5px;
     font-size: 12px;
+    padding: 0px 10px;
 }
 
 .rigth-home-links-inner {
@@ -740,4 +741,69 @@
 
 .fa-linkedin {
     font-size: 20px;
+}
+
+
+
+/* home chat  */
+.home-chat-container {
+    position: fixed;
+    right: 10px;
+    bottom: 0;
+    height: 50px;
+    width: 280px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 5px #00000088;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid #c3c3c3;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.home-chat-row {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-user-image {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.chat-user-image img {
+    width: 30px;
+}
+
+.home-chat-left {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.home-chat-left h6 {
+    font-weight: 600;
+}
+
+.home-chat-right {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.home-chat-right i {
+    padding: 5px;
+    border-radius: 50%;
+    transition: .3s ease-in-out;
+}
+
+.home-chat-right i:hover {
+    background-color: #cfcfcf;
 }
